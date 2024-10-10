@@ -1,0 +1,16 @@
+{
+  "name": "servidor",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start":"node src/index.js"
+  },
+  "keywords": ["email","brevo","bot"],
+  "author": "Matías Seltzer",
+  "license": "ISC",
+  "description": "Api para enviar emails de e-bot",
+  "dependencies": {
+    "@getbrevo/brevo": "^2.2.0"
+  }
+}
